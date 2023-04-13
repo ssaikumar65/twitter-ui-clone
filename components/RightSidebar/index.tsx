@@ -1,5 +1,5 @@
 import { followItems, trendingItems } from "@/util/data";
-import {  MdSearch } from "react-icons/md";
+import { MdSearch } from "react-icons/md";
 import { FollowItem } from "../FollowItem";
 import { TrendingItem } from "../TrendingItem";
 
@@ -20,7 +20,7 @@ const RightSidebar = () => {
       </div>
       <div className=" flex flex-col w-full bg-zinc-900 rounded-lg overflow-hidden">
         <span className=" text-xl font-bold py-3 px-4 hover:bg-zinc-800 cursor-pointer ">
-          What's happening
+          What is happening
         </span>
         <div className=" flex flex-col gap-2">
           {trendingItems.map((item, index) => (
